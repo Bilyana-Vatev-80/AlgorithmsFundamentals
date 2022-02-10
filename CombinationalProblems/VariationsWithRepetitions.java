@@ -2,11 +2,9 @@ package CombinationalProblems;
 
 import java.util.Scanner;
 
-public class VariationsWithoutRepetitions {
-
+public class VariationsWithRepetitions {
     public static String[] elements;
     public static String[] variations;
-    public static boolean[] used;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +15,6 @@ public class VariationsWithoutRepetitions {
 
         variations = new String[k];
 
-        used = new boolean[elements.length];
 
         variations(0);
 
@@ -31,12 +28,9 @@ public class VariationsWithoutRepetitions {
         }
 
         for (int i = 0; i < elements.length; i++) {
-            if(!used[i]){ // used when is not need to repeat
-                used[i] = true;
+
                 variations[index] = elements[i];
                 variations(index + 1); // викани рекурсията
-                used[i] = false;
-            }
         }
     }
 
