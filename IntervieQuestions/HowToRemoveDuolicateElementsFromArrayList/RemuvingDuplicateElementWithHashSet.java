@@ -1,4 +1,0 @@
-package IntervieQuestions.HowToRemoveDuolicateElementsFromArrayList;
-
-public class RemuvingDuplicateElementWithHashSet {
-}
