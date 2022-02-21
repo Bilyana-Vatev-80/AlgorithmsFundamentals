@@ -56,6 +56,7 @@ public class DuplicateWithSet {
         }
     }
 
+    //Method 3 : /bruteForce
     private static void findDuplicatesUsingBruteForce(int[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {

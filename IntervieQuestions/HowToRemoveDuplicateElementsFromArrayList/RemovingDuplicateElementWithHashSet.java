@@ -1,4 +1,4 @@
-package IntervieQuestions.HowToRemoveDuolicateElementsFromArrayList;
+package IntervieQuestions.HowToRemoveDuplicateElementsFromArrayList;
 
 import java.util.ArrayList;
 import java.util.HashSet;
