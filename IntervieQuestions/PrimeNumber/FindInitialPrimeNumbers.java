@@ -28,9 +28,8 @@ public class FindInitialPrimeNumbers {
 
         if(inputNumber <= 1){
             isItPrime = false;
-            return false;
         } else {
-            for (int i = 2; i < inputNumber / 2; i++) {
+            for (int i = 2; i <= inputNumber / 2; i++) {
                 if((inputNumber % i) == 0){
                     isItPrime = false;
                     break;

@@ -2,10 +2,9 @@ package IntervieQuestions.PrimeNumber;
 
 import java.util.Scanner;
 
-public class FindOutAllPrimeNumbersBetweenTwoGivenNumbers {
+public class PrimeNumbersBetweenTwoGivenNumbersInTheReverseOrder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter the start value :");
 
         int start = scanner.nextInt();
@@ -14,10 +13,10 @@ public class FindOutAllPrimeNumbersBetweenTwoGivenNumbers {
 
         int end = scanner.nextInt();
 
-        System.out.println("Prime numbers between "+start+" and "+end+" : ");
+        System.out.println("Prime numbers between "+start+" and "+end+" in reverse order : ");
 
-        for (int i = start; i < end; i++) {
-            if (checkForPrime(i)) {
+        for (int i = end; i >= start ; i--) {
+            if(checkForPrime(i)){
                 System.out.println(i);
             }
         }
@@ -29,7 +28,7 @@ public class FindOutAllPrimeNumbersBetweenTwoGivenNumbers {
         if(number <= 1){
             isItPrime = false;
         } else {
-            for (int i = 2; i <= number / 2; i++) {
+            for (int i = 2; i < number / 2; i++) {
                 if((number % i) == 0){
                     isItPrime = false;
                 }
