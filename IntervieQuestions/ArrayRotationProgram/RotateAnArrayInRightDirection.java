@@ -17,13 +17,13 @@ public class RotateAnArrayInRightDirection {
         int temp;
 
         for (int i = 1; i <= position; i++) {
-            temp = array[array.length - 1];
+            temp = array[array.length - 1]; // set the index tp the end of array
 
             for (int j = array.length - 1; j > 0; j--) {
                 array[j] = array[j - 1];
             }
 
-            array[0] = temp;
+            array[0] = temp; // index == 0
         }
 
         System.out.println(Arrays.toString(array));
