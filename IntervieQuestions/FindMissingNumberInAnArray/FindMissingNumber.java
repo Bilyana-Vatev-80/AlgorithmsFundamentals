@@ -1,6 +1,6 @@
 package IntervieQuestions.FindMissingNumberInAnArray;
 
-import GraphTheoryTraversalAndShortestPaths.Pair;
+import IntervieQuestions.Pair;
 
 import java.util.ArrayList;
 import java.util.Arrays;

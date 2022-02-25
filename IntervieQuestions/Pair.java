@@ -1,4 +1,4 @@
-package GraphTheoryTraversalAndShortestPaths;
+package IntervieQuestions;
 
 public class Pair <U, V>{
     public final U duplicates;
