@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class CheckIfNumberBelongsToFibonacciSeriesOrNot {
     public static void main(String[] args) {
+        /*
+        Write a java program to check whether given number
+        belongs to Fibonacci series or not.
+        For example, 34 belongs to Fibonacci
+        series where as 51 doesn’t belongs to Fibonacci series.
+         */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter positive number:");
         int inputNumber = Integer.parseInt(scanner.nextLine());
