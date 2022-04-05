@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class HowToCreateSpiralOfNumbersSpiralMatrixInClockwiseDirection {
     public static void main(String[] args) {
+        /*
+        Write a java program to create spiral of numbers or spiral matrix
+        or circular matrix of order n*n in both clockwise and anti-clockwise
+        directions. Spiral matrix should be filled with the values from 1 to n*n.
+         */
         System.out.println("Enter The Value For N: ");
         Scanner scanner = new Scanner(System.in);
 

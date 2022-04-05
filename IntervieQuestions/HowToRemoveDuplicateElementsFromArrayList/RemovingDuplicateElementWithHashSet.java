@@ -45,5 +45,6 @@ public class RemovingDuplicateElementWithHashSet {
 
         System.out.println("ArrayList After Removing Duplicate Elements :");
         System.out.println(listWithoutDuplicateElements);
+
     }
 }
